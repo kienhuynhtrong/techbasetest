@@ -1,0 +1,32 @@
+.wrap-covid {
+    &__total-confirm {
+        margin: 0 12px;
+        text-align: center;
+        cursor: pointer;
+        user-select: none;
+        h2 {
+            display: block;
+            font-size: 16px;
+            color: #222;
+        }
+        strong {
+            background: #F3585B;
+            font: bold 22px/1.6 Arial;
+            display: inline-block;
+            height: 48px;
+            line-height: 48px;
+            min-width: 150px;
+            text-align: center;
+            border-radius: 4px;
+            color: #fff;
+            margin: 3px 0;
+        }
+        div {
+            font-size: 14px;
+            font-family: arial;
+            color:#8CF2CD;
+            font-weight: bold;;
+        }
+
+    }
+}
